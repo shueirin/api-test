@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c8c8c8;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 2.4rem;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form-inline {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.form.form-inline .form-control {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.form.form-inline .form-control input[type="text"]{
+    height: 124%;
+}
+
+.btn {
+
+    padding: .8rem 1.2rem;
+    font-size: .9rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #666;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.btn:hover {
+
+    opacity: .8;
+}
+
+.btn.btn-primary {
+
+    background-color: #00a9e2;
+}
+.btn.btn-success {
+
+    background-color: #4ecdc4;
+}
+
+.btn.btn-warning {
+
+    background-color: #ffbe0b;
+}
+
+.recipe {
+   
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+.card ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin: 0 0 20px 0;
+
+}
+
+.card .btn {
+
+    line-height: 2.6rem;
+}
+
+.form-control {
+   margin-bottom: 10px;
+}
+
+.form-control input[type="text"],
+.form-control textarea  {
+    padding: 10px;
+    border: 1px solid #00a9e2;
+    font-size: .9rem;
+    width: 100%;
+    border-radius: 3px;
+}
+.form-control textarea {
+    min-height: 80px;
+}
+
+.maintitle {
+    margin-bottom: 2rem;
+}
